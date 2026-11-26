@@ -1,0 +1,3 @@
+# Preview only. Generate production files with npm run seo:generate -- https://your-domain
+User-agent: *
+Disallow: /
