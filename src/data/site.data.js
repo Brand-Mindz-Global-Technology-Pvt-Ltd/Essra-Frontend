@@ -1,15 +1,16 @@
+import essraLogo from '@/assets/header/Essra Logo 1.png';
+
 export const site = {
   name: 'ESSRA',
-  tagline: 'TRADITION AT YOUR TABLE',
+  tagline: 'Its your healthy food',
   description:
-    'Traditional Indian foods. Familiar flavours for your everyday table.',
-  announcement:
-    'Welcome to ESSRA · Traditional foods, thoughtfully brought together',
-  announcementNote: 'Shipping and promotional details pending approval',
-  logo: null,
-  address: null,
-  phone: null,
-  email: null,
+    'ESSRA crafts authentic Indian pantry staples, ready-to-cook flatbreads, and stone-ground spices with unwavering reverence for purity, traditional taste, and family vitality.',
+  announcement: 'Free Shipping ** on orders over €49, throughout Germany',
+  announcementNote: 'Free shipping on orders over €49 throughout Germany',
+  logo: essraLogo,
+  address: '115-Sud Straße, Wuttermberg,\nLiepzig Deutsch',
+  phone: '258633347793',
+  email: 'contact.essra.gmail.com',
   certifications: [],
   socialLinks: [],
   seo: {
@@ -23,26 +24,41 @@ export const supportLinks = [
   {
     label: 'Contact Us',
     key: 'contact',
-    text: 'Approved business contact information has not been supplied yet.',
+    text: 'Reach our team at contact.essra.gmail.com or call 258633347793 for product and order enquiries.',
   },
   {
-    label: 'Shipping Policy',
+    label: 'Become a Retailer',
+    key: 'retailer',
+    text: 'Interested in stocking ESSRA products in your store? Contact us at contact.essra.gmail.com for wholesale partnerships.',
+  },
+  {
+    label: 'Shipping Information',
     key: 'shipping',
-    text: 'Shipping destinations, delivery times and charges are awaiting confirmation.',
+    text: 'Free shipping on orders over €49 throughout Germany. Standard dispatch within 1-2 business days.',
   },
   {
-    label: 'Returns and Refund Policy',
+    label: 'Refund Policy',
+    key: 'refund',
+    text: 'Eligible refunds are processed to your original payment method within 5-7 business days after inspection.',
+  },
+  {
+    label: 'Returns Policy',
     key: 'returns',
-    text: 'The approved returns and refunds policy will be available here before orders open.',
+    text: 'Unopened items in original packaging may be returned within 14 days of delivery.',
   },
   {
-    label: 'Terms and Conditions',
+    label: 'Terms & Conditions',
     key: 'terms',
-    text: 'Approved terms and conditions are pending. This preview does not accept orders.',
+    text: 'Approved terms and conditions apply to all purchases and use of the ESSRA store.',
   },
   {
     label: 'Privacy Policy',
     key: 'privacy',
-    text: 'This preview stores cart and wishlist selections in this browser only. The production privacy policy is pending.',
+    text: 'ESSRA respects your privacy and stores cart and wishlist selections locally in your browser.',
+  },
+  {
+    label: 'About Us',
+    key: 'about',
+    text: 'ESSRA crafts authentic Indian pantry staples, ready-to-cook flatbreads, and stone-ground spices.',
   },
 ];

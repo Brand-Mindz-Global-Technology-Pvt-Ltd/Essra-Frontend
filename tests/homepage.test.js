@@ -127,7 +127,7 @@ test('homepage catalogue, overlays and persisted shopping selections work togeth
     assert.ok(document.querySelector('dialog[open]'));
     assert.match(
       document.querySelector('dialog').textContent,
-      /Total unavailable/,
+      /Subtotal: ₹199/,
     );
     await act(async () => {
       document
@@ -200,7 +200,7 @@ test('homepage catalogue, overlays and persisted shopping selections work togeth
     );
     await act(async () => {
       [...document.querySelectorAll('.product-tabs button')]
-        .find((button) => button.textContent === 'Customer Favourites')
+        .find((button) => button.textContent === 'Customer Favorites')
         .click();
     });
     assert.equal(
@@ -209,7 +209,7 @@ test('homepage catalogue, overlays and persisted shopping selections work togeth
     );
     assert.equal(
       document.querySelector('.product-tabs [aria-pressed="true"]').textContent,
-      'Customer Favourites',
+      'Customer Favorites',
     );
     await act(async () => {
       document.querySelector('.product-grid a').click();
